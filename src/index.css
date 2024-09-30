@@ -1,0 +1,78 @@
+body{
+  margin: 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  -webkit-font-smooothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+}
+
+code{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+  margin-top : 10px;
+}
+.box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 160px;
+  border: 2px solid black;
+  cursor: pointer;
+  
+
+}
+.row{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box p{
+  font-weight: 500;
+  font-size: 150px;
+}
+button{
+  width: 125px;
+  text-align: center;
+  /* height: 180px; */ 
+  color: white;
+  background-color: #1a0262;
+  font-size: 18px;
+  border: none;
+  cursor:pointer;
+}
+/* ---------------------- */
+
+.container {
+  position: relative;
+  width: 500px;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+.row {
+  display: flex;
+}
+
+.win {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  width: 80%;
+}
+
+.win h1 {
+  margin-bottom: 20px;
+}
+
+.win button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
